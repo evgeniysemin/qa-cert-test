@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестирование битой цепочки сертификатов</title>
+    <link rel="stylesheet" href="https://cdn-app.sberdevices.ru/shared-static/0.0.0/styles/SBSansText.0.1.0.css" />
+    <style>
+        html {
+            font-size: 32px;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(8, 8, 8);
+            color: rgba(255,255,255,0.96);
+            font-family: 'SB Sans Text','Helvetica','Arial',sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 1rem;
+            letter-spacing: -0.0190em;
+            line-height: 1.25rem;
+            padding: 20px 80px 168px;
+        }
+        * {
+            outline: none;
+            box-sizing: border-box;
+        }
+        #background {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(336.84deg,rgba(20,116,70,0.6) 0%,rgba(8,8,8,0) 64.88%),radial-gradient(100% 100% at 75.89% 100%,rgba(0,133,255,0.24) 0%,rgba(0,71,255,0.03) 100%),linear-gradient(180deg,rgba(8,8,8,0) 50%,rgba(7,71,33,0.3) 100%),linear-gradient(270deg,#061621 0%,rgba(8,8,8,0) 100%);
+            z-index: -1;
+        }
+        #root {
+            display: flex;
+            flex-direction: column;
+            max-width: 30rem;
+            align-items: center;
+        }
+        h1 {
+            font-size: 2rem;
+            letter-spacing: -0.176px;
+            line-height: 2.250rem;
+        }
+        .card {
+            background-color: rgba(255,255,255,0.06);
+            display: block;
+            padding: 0.5rem 0px;
+            margin-bottom: 0px;
+            box-sizing: border-box;
+            border-radius: 0.625rem;
+            outline: none;
+            overflow: hidden;
+        }
+        .card-row {
+            padding: 0.5rem;
+        }
+        button {
+            background-color: #21A038;
+            border-radius: 0.75rem;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+            text-decoration: none;
+            width: 100%;
+            padding: 0.625rem 1.25rem;
+            font-family: "SB Sans Text", "Helvetica", "Arial", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 0.875rem;
+            letter-spacing: normal;
+            line-height: 1rem;
+
+        }
+        img {
+            margin-bottom: 1rem;
+        }
+        #file-input {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="background"></div>
+    <h1>Canvas App с неподходящими сертификатами</h1>
+</body>
+</html>
